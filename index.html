@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Snoopy </title>
+        <style>
+            img {
+                width: 100px;
+                border-radius: 50px;
+                float: left;
+                margin-right: 10px;
+            }
+            .username {
+                font-weight: bolder;
+            }
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #a0bf86 ;
+                color: black;
+            }
+            h1 {
+                color: cornflowerblue;
+            }
+            p {
+                line-height: 1.6 ;
+            }
+            .button{
+                display: flow-root;
+                padding: 10px 15px;
+                background-color: darkolivegreen;
+                color: beige;
+                text-align: right;
+                text-decoration: dotted;
+                cursor: pointer;
+            }
+            .button:hover {
+                background-color: burlywood;
+            }
+        </style>
+       
+    </head>
+    <body>
+        <img src="imagines/snoppy.jpg">
+        <p class="username"> @Snoppy Benny</p>
+        <p> Snoppy the greatest.</p>
+        <p> Snoppy is nice and lovable. Snoopy likes to read book and listening to Taylor Swift.<em>RIGHT</em></p>
+        <p class="username"> Here snoppy has a song for you!!!!</p>
+        <button class="button" onclick="redirectToYouTube()">Click Here!</button>
+        
+        <script> 
+        function redirectToYouTube() {
+            window.location.href = 'https://youtu.be/pQq9eP5OFhw?si=OY_stApNsdIccaBe'
+        }
+        </script>
+    </body>
+</html>
